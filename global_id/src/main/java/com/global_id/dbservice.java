@@ -16,10 +16,10 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class dbservice implements ApplicationRunner{
-	
+	 
 	  @Autowired
 	    DataSource dataSource;
-
+  
 	    @Autowired
 	    JdbcTemplate jdbcTemplate;
 
